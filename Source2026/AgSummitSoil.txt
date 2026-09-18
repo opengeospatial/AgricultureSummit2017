@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="JoshLieberman" comment="save topic" date="1496692796" format="1.1" reprev="3" version="3"}%
+%META:TOPICPARENT{name="WebHome"}%
+---+ Soil for Starters
+
+---++ Presentation
+
+-- Main.JoshLieberman - 21 Mar 2017
+   * [[%ATTACHURL%/Soil_for_Starter_presentation.pptx][Soil_for_Starter_presentation.pptx]]: [[https://portal.opengeospatial.org/files/?artifact_id=73139][Ag Summit Soils]] - Medyckyj-Scott
+
+---++ Session Notes
+
+%META:FILEATTACHMENT{name="Soil_for_Starter_presentation.pptx" attachment="Soil_for_Starter_presentation.pptx" attr="" comment="Ag Summit Soils - Medyckyj-Scott" date="1490094188" path="Soil_for_Starter_presentation.pptx" size="5351259" user="JoshLieberman" version="1"}%

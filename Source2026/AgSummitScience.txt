@@ -1,0 +1,6 @@
+%META:TOPICINFO{author="JoshLieberman" comment="save topic" date="1495716888" format="1.1" reprev="1" version="2"}%
+%META:TOPICPARENT{name="WebHome"}%
+---+ Science: geospatial data models, analytics, and semantics
+
+-- Main.JoshLieberman - 21 Mar 2017
+%META:FILEATTACHMENT{name="20160922-Kris-Matson-OGC-AG-DWG-v2.pdf" attachment="20160922-Kris-Matson-OGC-AG-DWG-v2.pdf" attr="" comment="Matson Presentation" date="1495716887" path="20160922-Kris-Matson-OGC-AG-DWG-v2.pdf" size="3644672" user="JoshLieberman" version="1"}%

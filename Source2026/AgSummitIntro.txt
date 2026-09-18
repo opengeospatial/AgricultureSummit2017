@@ -1,0 +1,12 @@
+%META:TOPICINFO{author="JoshLieberman" comment="save topic" date="1495752444" format="1.1" reprev="3" version="3"}%
+%META:TOPICPARENT{name="WebHome"}%
+---+ Introduction
+
+---++ Presentation
+   * [[%ATTACHURL%/170321_AgSummit_Intro.pdf][170321_AgSummit_Intro.pdf]]: Ag Summit Introduction presentation - Lieberman---
+   * [[%ATTACHURL%/ AgSummitIntro.mp4][AgSummitIntro.mp4]]: Ag Summit Introduction recording - Lieberman---
+
+---++ Session Notes
+
+%META:FILEATTACHMENT{name="170321_AgSummit_Intro.pdf" attachment="170321_AgSummit_Intro.pdf" attr="" comment="Ag Summit Introduction - Lieberman" date="1490093124" path="170321_AgSummit_Intro.pdf" size="5375039" user="JoshLieberman" version="1"}%
+%META:FILEATTACHMENT{name="AgSummitIntro.mp4" attachment="AgSummitIntro.mp4" attr="" comment="Summit Introduction" date="1495752317" path="AgSummitIntro.mp4" size="16920279" user="JoshLieberman" version="1"}%
