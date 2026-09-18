@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+# Reproducible Pandoc launcher used by convert-twiki2md.sh.
+
+set -Eeuo pipefail
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=common.sh
+source "$SCRIPT_DIR/common.sh"
+
+if [[ "$PANDOC_MODE" == "local" ]]; then
+  command -v "$PANDOC_BIN" >/dev/null 2>&1 || \
+    die "Local Pandoc not found: $PANDOC_BIN"
+  exec "$PANDOC_BIN" "$@"
+fi
+
+[[ "$PANDOC_MODE" == "docker" ]] || \
+  die "PANDOC_MODE must be 'docker' or 'local', not '$PANDOC_MODE'"
+need_cmd docker
+docker info >/dev/null 2>&1 || \
+  die "Docker is not running; start Docker or set PANDOC_MODE=local"
+
+docker_args=(run -i --rm --volume "$PROJECT_ROOT:/data" --workdir /data)
+if [[ -n "${PANDOC_PLATFORM:-}" ]]; then
+  docker_args+=(--platform "$PANDOC_PLATFORM")
+fi
+if command -v id >/dev/null 2>&1; then
+  docker_args+=(--user "$(id -u):$(id -g)")
+fi
+
+exec docker "${docker_args[@]}" "$PANDOC_IMAGE" "$@"

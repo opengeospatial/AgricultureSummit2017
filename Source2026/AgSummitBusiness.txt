@@ -1,0 +1,6 @@
+%META:TOPICINFO{author="JimWilson" comment="save topic" date="1490107373" format="1.1" reprev="3" version="3"}%
+%META:TOPICPARENT{name="WebHome"}%
+---+ Business: data value, ownership, security, integration
+   * [[%ATTACHURL%/OGC_Ag_Summit_Wilson_2016-03-21.pdf][OGC_Ag_Summit_Wilson_2016-03-21.pdf]]: Presentation Jim Wilson from !AgGateway Global Network delivered at the OGC Agriculture Summit in Delft, Netherlands on 2017-03-21.
+
+%META:FILEATTACHMENT{name="OGC_Ag_Summit_Wilson_2016-03-21.pdf" attachment="OGC_Ag_Summit_Wilson_2016-03-21.pdf" attr="" comment="Presentation Jim Wilson from !AgGateway Global Network delivered at the OGC Agriculture Summit in Delft, Netherlands on 2017-03-21." date="1490107373" path="OGC_Ag_Summit_Wilson_2016-03-21.pdf" size="7019495" user="JimWilson" version="1"}%

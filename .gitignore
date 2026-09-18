@@ -1,8 +1,19 @@
+# Generated migration output and converter intermediates.
+build/
 html/
 utf8/
 markdown/
+
+# Foswiki/TWiki runtime and RCS files are not part of the snapshot.
 *,v
 .changes
 .mailnotify
 *.lease
+
+# Local-only assistant notes.
 CLAUDE.md
+
+# Editor and interpreter scratch files.
+*.swp
+__pycache__/
+*.pyc
